@@ -1,7 +1,7 @@
 {
   "name": "菜单",
   "short_name": "Menu",
-  "description": "芳的菜单管理工具",
+  "description": "Menu",
   "start_url": "/menu",
   "display": "standalone",
   "scope": "/menu",
