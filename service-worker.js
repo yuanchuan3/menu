@@ -1,20 +1,20 @@
 const t = /* @__PURE__ */ location.pathname.split("/").slice(0, -1).join("/"), h = [
-  t + "/_app/immutable/entry/app.9c592720.js",
+  t + "/_app/immutable/entry/app.f1be79b5.js",
   t + "/_app/immutable/assets/0.5051b36a.css",
   t + "/_app/immutable/nodes/0.70a50f5c.js",
-  t + "/_app/immutable/nodes/1.8cf75635.js",
-  t + "/_app/immutable/assets/2.6c33742d.css",
-  t + "/_app/immutable/nodes/2.77c36ab1.js",
+  t + "/_app/immutable/nodes/1.873dc057.js",
+  t + "/_app/immutable/assets/2.d005b368.css",
+  t + "/_app/immutable/nodes/2.dac2c9d1.js",
   t + "/_app/immutable/chunks/index.b6a93595.js",
   t + "/_app/immutable/chunks/scheduler.bcb5595c.js",
-  t + "/_app/immutable/chunks/singletons.5b422e58.js",
-  t + "/_app/immutable/entry/start.060df3a0.js"
+  t + "/_app/immutable/chunks/singletons.49a06170.js",
+  t + "/_app/immutable/entry/start.7720478d.js"
 ], p = [
   t + "/.nojekyll",
   t + "/favicon.svg",
   t + "/fullscreen.png",
   t + "/manifest.json"
-], i = "1690657665407", o = `cache${i}`, l = h.concat(p), u = new Set(l);
+], i = "1690658197165", o = `cache${i}`, l = h.concat(p), u = new Set(l);
 self.addEventListener("install", (s) => {
   s.waitUntil(
     caches.open(o).then((e) => e.addAll(l)).then(() => {
