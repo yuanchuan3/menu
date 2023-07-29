@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="./manifest.json" />
+    
+		<link rel="modulepreload" href="./_app/immutable/entry/start.36231fb8.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.3d04e4e5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.679d3b0b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.341bad15.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.1c4c00b1.js">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+			<script>
+				{
+					__sveltekit_1jen2fr = {
+						assets: "/menu",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.36231fb8.js"),
+						import("./_app/immutable/entry/app.341bad15.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+  </body>
+</html>
